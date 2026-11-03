@@ -1,13 +1,13 @@
 
 ---
 
-# # Global Food Prices Analytics Project
+# Global Food Prices Analytics Project
 
 This repository houses an end-to-end data analytics and business intelligence project focused on cleaning, transforming, modeling, and visualizing historical global food price data. The project bridges backend data engineering with frontend interactive dashboards to surface macroeconomic insights into inflation, commodity volatility, and regional market trends.
 
 ---
 
-## ## Repository Structure
+## Repository Structure
 
 The files in this repository represent a complete lifecycle from raw data ingestion to executive-level visualization assets:
 
@@ -20,7 +20,7 @@ The files in this repository represent a complete lifecycle from raw data ingest
 
 ---
 
-## ## Project Workflow & Architecture
+ ## Project Workflow & Architecture
 
 The architecture relies on a traditional data-to-dashboard pipeline:
 
@@ -29,18 +29,18 @@ The architecture relies on a traditional data-to-dashboard pipeline:
 
 
 
-### ### 1. Data Processing & Pipeline Design (`SAS`)
+ ### 1. Data Processing & Pipeline Design (`SAS`)
 
 * **Ingestion & Integrity:** Programmatically reads the `Food_Prices_raw.csv` file, converting text-based periods into mathematically viable dates and aligning disjointed currency markers.
 * **Feature Engineering:** Computes moving averages, identifies standard deviation outliers for price shocks, and builds normalized indexes to compare varying commodities uniformly.
 * **Data Structuring:** Outputs relational matrix models that map cleanly into BI staging environments without requiring further formatting.
 
-### ### 2. Relational Modeling & BI Engineering (`Power BI`)
+ ### 2. Relational Modeling & BI Engineering (`Power BI`)
 
 * **Data Modeling:** Links commodity types, regional geographic locations, and timespans using an optimized Star Schema setup.
 * **DAX Analytics:** Leverages Data Analysis Expressions (DAX) to build dynamic time-intelligence measures (e.g., *Moving Average Trends*, *Inflation Rates*, and *Peak Price Shock Voltilities*).
 * **Interactive Design:** Showcases cross-filtering visuals, geospatial maps tracking regional price distributions, and historical trend lines with forecast bands.
 
-### ### 3. Business Context & Strategic Reporting
+### 3. Business Context & Strategic Reporting
 
 The final narrative synthesizes data processing with visualization panels to explain global food vulnerability corridors, supply chain blockages, and inflationary trends. It turns technical code into a clean, intuitive presentation package perfect for economic researchers, analysts, or executive stakeholders.
