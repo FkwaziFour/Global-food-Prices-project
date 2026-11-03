@@ -1,4 +1,3 @@
-Here is a clean, comprehensive, and professional markdown description for your new repository, **Global-food-Prices-project**, based on your uploaded GitHub screenshot.
 
 ---
 
